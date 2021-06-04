@@ -42,6 +42,7 @@ int main(void) {
 float mc_pi(int insidesquare)
 {
 	int insidecircle=0;
+	int i;
 	float x;
 	float y;
 	float len;
