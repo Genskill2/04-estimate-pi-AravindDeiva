@@ -34,7 +34,7 @@ float wallis_pi(int n)
 	int i;
 	float p;
 	float q;
-	int pi=2;
+	float pi=2;
 	for(i=1;i<n;i++)
 	{
 		p=(4*(i*i));
