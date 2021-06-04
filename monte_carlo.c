@@ -39,5 +39,25 @@ int main(void) {
   }
 }
 
-
-
+float mc_pi(int insidesquare)
+{
+	int insidecircle=0;
+	float x;
+	float y;
+	float len;
+	float dist;
+	double pi;
+	for(i=0;i<insidesquare;i++)
+	{
+		x=frandom();
+		y=frandom();
+		len=((x*x)+(y*y));
+		dist=pow(len,0.5);
+		if(len<1)
+		{
+		insidecircle++;
+		}
+	}
+	pi=4*(double)insidecircle/insidesquare;
+	return pi;
+}
