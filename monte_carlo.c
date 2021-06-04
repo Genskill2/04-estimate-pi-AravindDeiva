@@ -54,7 +54,7 @@ float mc_pi(int insidesquare)
 		y=frandom();
 		len=((x*x)+(y*y));
 		dist=pow(len,0.5);
-		if(len<1)
+		if(len<=1)
 		{
 		insidecircle++;
 		}
